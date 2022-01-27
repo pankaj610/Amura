@@ -111,6 +111,11 @@ export default class SearchScreen extends React.Component {
                 label: "Select the inc/dec column", 
                 color: 'black'
               }}
+              style={{
+                inputAndroid: {
+                    color: 'black',
+                },
+              }}
             items={[
                 { label: 'Date', value: 'date' },
                 { label: 'Name', value: 'name' },

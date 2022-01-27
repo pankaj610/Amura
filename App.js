@@ -9,7 +9,7 @@ import { NavigationContainer } from '@react-navigation/native';
 const StackNavigator = createStackNavigator();
 
 export default function App(props) {
-  const [isSignedIn, setIsSignedIn] = React.useState(true);
+  const [isSignedIn, setIsSignedIn] = React.useState(false);
 
   const login = ()=> {
     setIsSignedIn(true);
